@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Merriweather", serif;
+}
+
+/* CABEÇALHO DO SITE */
+header {
+    padding: 80px;
+    background-color: #20130a;
+    font-weight: 400;
+}
+header .cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header i {
+    color: aliceblue;
+    font-size: 80px;
+}
+header h1 {
+    font-size: 50px;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* SESSÃO1 */
+.sessao1 {
+    background-image: url(Imagem/sessao1-pagina1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 158px;
+}
+.sessao1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: yellow;
+}
+.sessao1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+/* SESSÃO2 */
+.sessao2 {
+    background: linear-gradient(180deg, #20130a 8.33%, #503019 100%);
+    padding: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessao2 .cortes {
+display: flex;
+gap: 80px;
+margin-top: 30px;
+}
+.sessao2 .cortes div {
+    display: flex;
+    margin: 15px;
+    border-radius: 25px;
+}
+.sessao2 .cortes .cabelo1 {
+    background-image: url(Imagem/Corte1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px white
+}
+.sessao2 .cortes .cabelo2 {
+    background-image: url(Imagem/corte2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px white
+}
+.sessao2 .cortes .cabelo3 {
+    background-image: url(Imagem/corte3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px white
+}
+.sessao2 .cortes .cabelo4 {
+    background-image: url(Imagem/corte4.webp);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px white
+}
+.sessao2 .cortes .cabelo5 {
+    background-image: url(Imagem/corte5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px white
+}
+.sessao2 .cortes .cabelo6 {
+    background-image: url(Imagem/corte6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 20px white
+}
+
+/* SESSÃO3 */
+.sessao3 {
+    background-image: url(Imagem/fundo\ sessao3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+.sessao3 div h3 {
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    font-size: 30px;
+    color: white;
+}
+.sessao3 div a {
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+}
+.sessao3 div a button {
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: rgb(189, 189, 189);
+    border-color: rgba(240, 248, 255, 0.466);
+    transition: 0.8s;
+}
+.sessao3 div a button:hover {
+    border-radius: 30px;
+    transition: 0.8s;
+    border-color: white;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+footer {
+    padding: 80px;
+    background-color: #20130a;
+    font-weight: 400;
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.primeiro i {
+    color: aliceblue;
+    font-size: 80px;
+}
+.primeiro hr {
+    width: 80px;
+}
+.segundo ul {
+    display: flex;
+    gap: 20px;
+}
+.segundo ul li i {
+    font-size: 40px;
+    color: white;
+}
+.terceiro nav ul {
+    display: flex;
+    gap: 20px;
+}
+.terceiro nav ul li a {
+    text-decoration: none;
+    color: white;
+}
