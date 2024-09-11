@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Merriweather", serif;
+}
+
+/* CABEÇALHO DO SITE */
+header {
+    padding: 80px;
+    background-color: #20130a;
+    font-weight: 400;
+}
+
+header .cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header i {
+    color: aliceblue;
+    font-size: 80px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0px auto;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* IMAGEM DE FUNDO */
+.fundo {
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0.479) 8.33%, rgba(0, 0, 0, 0.349) 100%), url(Imagem/fundo\ os\ cortes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* SESSÃO1 */
+.sessao1 {
+    padding: 100px;
+}
+
+.sessao1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sessao1 .tipos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Undercut1 {
+    background-image: url(Cortes/Undercut1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Undercut1:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.Undercut2 {
+    background-image: url(Cortes/Undercut2.webp);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Undercut2:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.Undercut3 {
+    background-image: url(Cortes/Undercut3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Undercut3:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+/* SESSÃO2 */
+.sessao2 {
+    padding: 100px;
+}
+
+.sessao2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sessao2 .tipos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Fade1 {
+    background-image: url(Cortes/FADE1.png);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Fade1:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.Fade2 {
+    background-image: url(Cortes/FADE2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Fade2:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.Fade3 {
+    background-image: url(Cortes/FADE3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Fade3:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+/* SESSÃO3 */
+.sessao3 {
+    padding: 100px;
+}
+
+.sessao3 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sessao3 .tipos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Pompadour1 {
+    background-image: url(Cortes/Pompadour1.webp);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Pompadour1:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.Pompadour2 {
+    background-image: url(Cortes/Pompadour2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Pompadour2:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.Pompadour3 {
+    background-image: url(Cortes/Pompadour3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.Pompadour3:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+/* SESSÃO4 */
+.sessao4 {
+    padding: 100px;
+}
+
+.sessao4 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sessao4 .tipos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CorteCaesar1 {
+    background-image: url(Cortes/Corte\ Caesar1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.CorteCaesar1:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.CorteCaesar2 {
+    background-image: url(Cortes/Corte\ Caesar2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.CorteCaesar2:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.CorteCaesar3 {
+    background-image: url(Cortes/Corte\ Caesar3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.CorteCaesar3:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+/* SESSÃO5 */
+.sessao5 {
+    padding: 100px;
+}
+
+.sessao5 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.sessao5 .tipos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BuzzCut1 {
+    background-image: url(Cortes/Buzz\ Cut1.png);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.BuzzCut1:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.BuzzCut2 {
+    background-image: url(Cortes/Buzz\ Cut2.avif);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.BuzzCut2:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+.BuzzCut3 {
+    background-image: url(Cortes/Buzz\ Cut3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px white;
+    transition: 0.6s;
+}
+
+.BuzzCut3:hover {
+    transition: 0.6s;
+    transform: scale(1.1, 1.1);
+}
+
+/* SESSÃO6 */
+.sessao6 {
+    padding: 80px;
+    background: linear-gradient(180deg, #20130a00 8.33%, rgb(34, 34, 34) 100%);
+}
+
+.sessao6 p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sessao6 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sessao6 a {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+/* SESSÃO6 */
+.sessao7 {
+    padding: 80px;
+    background: linear-gradient(360deg, #20130a 8.33%, rgb(34, 34, 34) 100%);
+}
+
+.sessao7 h2 {
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+    font-size: 30px;
+}
+
+.sessao7 table {
+    background-color: #000000;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+/* RODAPÉ */
+footer {
+    padding: 30px;
+    background-color: #20130a;
+    font-weight: 400;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primeiro i {
+    color: aliceblue;
+    font-size: 80px;
+}
+
+.primeiro hr {
+    width: 80px;
+}
+
+.segundo ul {
+    display: flex;
+    gap: 40px;
+}
+
+.segundo ul li i {
+    font-size: 60px;
+    color: white;
+    transition: 0.6s;
+}
+
+.segundo #instagram:hover {
+    transition: 0.6s;
+    color: rgb(239, 62, 255);
+}
+
+.segundo #telegram:hover {
+    transition: 0.6s;
+    color: rgb(41, 187, 255);
+}
+
+.segundo #zap:hover {
+    transition: 0.6s;
+    color: rgb(67, 255, 61);
+}
+
+.terceiro nav ul li {
+    margin: 15px;
+}
+
+.terceiro nav ul li a {
+    text-decoration: none;
+    color: white;
+}

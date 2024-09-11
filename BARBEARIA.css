@@ -25,10 +25,11 @@ header i {
 header h1 {
     font-size: 50px;
     color: white;
+    margin: 0px auto;
 }
 header nav ul {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 header nav ul li a {
     text-decoration: none;
@@ -72,7 +73,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
 }
 .sessao2 .cortes {
 display: flex;
@@ -84,12 +85,14 @@ margin-top: 30px;
     margin: 15px;
     border-radius: 25px;
 }
+
+
 .sessao2 .cortes .cabelo1 {
     background-image: url(Imagem/Corte1.jpg);
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px white;
     transition: 0.6s;
 }
@@ -104,7 +107,7 @@ margin-top: 30px;
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px white;
     transition: 0.6s;
 }
@@ -119,7 +122,7 @@ margin-top: 30px;
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px white;
     transition: 0.6s;
 }
@@ -134,7 +137,7 @@ margin-top: 30px;
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px white;
     transition: 0.6s;
 }
@@ -149,7 +152,7 @@ margin-top: 30px;
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px white;
     transition: 0.6s;
 }
@@ -164,7 +167,7 @@ margin-top: 30px;
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px white;
     transition: 0.6s;
 }
@@ -203,8 +206,8 @@ margin-top: 30px;
     padding: 10px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.486);
-    color: rgb(189, 189, 189);
-    border-color: rgba(240, 248, 255, 0.466);
+    color: rgb(211, 211, 211);
+    border-color: rgba(0, 0, 0, 0.466);
     transition: 0.8s;
 }
 .sessao3 div a button:hover {

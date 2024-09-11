@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Merriweather", serif;
+}
+
+/* CABEÇALHO DO SITE */
+header {
+    padding: 80px;
+    background-color: #20130a;
+    font-weight: 400;
+}
+header .cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header i {
+    color: aliceblue;
+    font-size: 80px;
+}
+header h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0px auto;
+}
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RODAPÉ */
+footer {
+    padding: 30px;
+    background-color: #20130a;
+    font-weight: 400;
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.primeiro i {
+    color: aliceblue;
+    font-size: 80px;
+}
+.primeiro hr {
+    width: 80px;
+}
+.segundo ul {
+    display: flex;
+    gap: 40px;
+}
+.segundo ul li i {
+    font-size: 60px;
+    color: white;
+    transition: 0.6s;
+}
+.segundo #instagram:hover {
+    transition: 0.6s;
+    color: rgb(239, 62, 255);
+}
+.segundo #telegram:hover {
+    transition: 0.6s;
+    color: rgb(41, 187, 255);
+}
+.segundo #zap:hover {
+    transition: 0.6s;
+    color: rgb(67, 255, 61);
+}
+.terceiro nav ul li {
+    margin: 15px;
+}
+.terceiro nav ul li a {
+    text-decoration: none;
+    color: white;
+}
