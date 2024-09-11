@@ -1,3 +1,4 @@
+/* FONTE DO SITE */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
@@ -9,36 +10,31 @@
 
 /* CABEÇALHO DO SITE */
 header {
-    padding: 80px;
-    background-color: #20130a;
-    font-weight: 400;
+    padding: 80px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DE FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
 }
-
 header .cabeçalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    justify-content: space-between; /*ESPAÇAMENTO ENTRE AS DIV*/
+    align-items: center; /*CENTRALIZAR AS DIV NA VERTICAL*/ 
 }
-
 header i {
-    color: aliceblue;
-    font-size: 80px;
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMANHO DA LOGO*/
 }
-
 header h1 {
-    font-size: 50px;
-    color: white;
-    margin: 0px auto;
+    font-size: 50px; /*TAMANHO DO TITULO*/
+    color: white; /*COR DA LETRA*/
+    margin: 0px auto; /*ESPEÇAMENTO ENTRE ENVOLTA DO TÍTULO*/
 }
-
 header nav ul {
-    display: flex;
-    gap: 15px;
+    display: flex; /*DEIXA A LISTA UM DO LADO DA OUTRA (MENU)*/
+    gap: 15px; /*ESPAÇAMENTO ENTRE AS LISTAS*/
 }
-
 header nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO, FAZENDO QUE RETIRA A LINHA QUE FICA EMBAIXO DA FRASE*/
+    color: white; /*COR DAS LETRAS*/
 }
 
 /* IMAGEM DE FUNDO */
