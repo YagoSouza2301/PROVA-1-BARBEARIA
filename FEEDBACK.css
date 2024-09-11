@@ -1,3 +1,4 @@
+/* FONTE DO SITE */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
@@ -9,196 +10,199 @@
 
 /* CABEÇALHO DO SITE */
 header {
-    padding: 80px;
-    background-color: #20130a;
-    font-weight: 400;
+    padding: 80px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DE FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
 }
 header .cabeçalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    justify-content: space-between; /*ESPAÇAMENTO ENTRE AS DIV*/
+    align-items: center; /*CENTRALIZAR AS DIV NA VERTICAL*/ 
 }
 header i {
-    color: aliceblue;
-    font-size: 80px;
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMANHO DA LOGO*/
 }
 header h1 {
-    font-size: 50px;
-    color: white;
+    font-size: 50px; /*TAMANHO DO TITULO*/
+    color: white; /*COR DA LETRA*/
+    margin: 0px auto; /*ESPEÇAMENTO ENTRE ENVOLTA DO TÍTULO*/
 }
 header nav ul {
-    display: flex;
-    gap: 20px;
+    display: flex; /*DEIXA A LISTA UM DO LADO DA OUTRA (MENU)*/
+    gap: 15px; /*ESPAÇAMENTO ENTRE AS LISTAS*/
 }
 header nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO, FAZENDO QUE RETIRA A LINHA QUE FICA EMBAIXO DA FRASE*/
+    color: white; /*COR DAS LETRAS*/
 }
 
 main {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.534) 8.33%, rgba(59, 59, 59, 0.562) 100%), url(Imagem/feedback.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.534) 8.33%, rgba(59, 59, 59, 0.562) 100%), url(Imagem/feedback.jpg); /*IMAGEM DE FUNDO COM COR*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-repeat: no-repeat; /*NÃO REPITIR A IMAGEM*/
+    background-size: cover; /*AJUSTAR IMAGEM DENTRO DO QUADRADO*/
 }
 .feedback {
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px; /*ESPAÇAMENTO*/
+    text-align: center; /*CENTRALIZAR O TEXTO*/
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
 }
 .feedback h2{
-    margin-top: 200px;
-    color: white;
-    font-size: 40px;
+    margin-top: 200px; /*ESPAÇAMENTO SOBRE A PARTE DE CIMA*/
+    color: white; /*COR DO SUBTITULO*/
+    font-size: 40px; /*TAMANHO DA LETRA*/
 }
 .feedback form {
-    padding: 20px;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.911) 8.33%, rgba(54, 54, 54, 0.76) 100%);
-    width: 450px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px black;
-    margin-bottom: 200px;
+    padding: 20px; /*TAMANHO DO MEU FORMULARIO*/
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.911) 8.33%, rgba(54, 54, 54, 0.76) 100%); /*COR EM DEGRADE*/
+    width: 450px; /*LARGURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px black; /*SOMBREADO DO FORMULARIO*/
+    margin-bottom: 200px; /*ESPAÇAMENTO ENTRE A PARTE DE CIMA DO FORMULARIO*/
 }
 label {
-    color: white;
+    color: white; /*COR DA LETRA*/
 }
 div h5 {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 7px; 
+    font-size: 22px;/*TAMANHO DA LETRA*/
+    font-weight: 600; /*PREENCHIMENTO DAS LETRAS*/
+    margin: 7px; /*ESPAÇAMENTO ENVOLTA*/
 }
 div .n1 {
-    width: 30px;
-    height: 30px;
-    margin:  15px 5px;
+    width: 30px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
+    margin:  15px 5px; /*ESPAÇAMENTO ENVOLTA SÓ QUE COM MEDIDAS DIFERENTES*/
 }
 div .n1:hover {
-    transition: 0.6s;
-    background-color: red;
-    color: white;
-    font-weight: 900;
-    cursor: pointer;
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    background-color: red; /*COR DE FUNDO*/
+    color: white; /*COR DO NUMERO*/
+    font-weight: 900; /*PREENCHIMENTO DO NÚMERO*/
+    cursor: pointer; /*MODIFICA O CURSOR DO MOUSE*/
 }
 
 
 div .n2 {
-    width: 30px;
-    height: 30px;
-    margin:  15px 5px;
+    width: 30px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
+    margin:  15px 5px; /*ESPAÇAMENTO ENVOLTA SÓ QUE COM MEDIDAS DIFERENTES*/
 }
 div .n2:hover {
-    transition: 0.6s;
-    background-color: rgb(255, 145, 0);
-    color: white;
-    font-weight: 900;
-    cursor: pointer;
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    background-color: rgb(255, 145, 0); /*COR DE FUNDO*/
+    color: white; /*COR DO NUMERO*/
+    font-weight: 900; /*PREENCHIMENTO DO NÚMERO*/
+    cursor: pointer; /*MODIFICA O CURSOR DO MOUSE*/
 }
 
 
 div .n3 {
-    width: 30px;
-    height: 30px;
-    margin:  15px 5px;
+    width: 30px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
+    margin:  15px 5px; /*ESPAÇAMENTO ENVOLTA SÓ QUE COM MEDIDAS DIFERENTES*/
 }
 div .n3:hover {
-    transition: 0.6s;
-    background-color: yellow;
-    color: black;
-    font-weight: 900;
-    cursor: pointer;
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    background-color: yellow; /*COR DE FUNDO*/
+    color: black; /*COR DO NUMERO*/
+    font-weight: 900; /*PREENCHIMENTO DO NÚMERO*/
+    cursor: pointer; /*MODIFICA O CURSOR DO MOUSE*/
 }
 
 
 div .n4 {
-    width: 30px;
-    height: 30px;
-    margin:  15px 5px;
+    width: 30px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
+    margin:  15px 5px; /*ESPAÇAMENTO ENVOLTA SÓ QUE COM MEDIDAS DIFERENTES*/
 }
 div .n4:hover {
-    transition: 0.6s;
-    background-color: blue;
-    color: white;
-    font-weight: 900;
-    cursor: pointer;
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    background-color: blue; /*COR DE FUNDO*/
+    color: white; /*COR DO NUMERO*/
+    font-weight: 900; /*PREENCHIMENTO DO NÚMERO*/
+    cursor: pointer; /*MODIFICA O CURSOR DO MOUSE*/
 }
 
 
 div .n5 {
-    width: 30px;
-    height: 30px;
-    margin:  15px 5px;
+    width: 30px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
+    margin:  15px 5px; /*ESPAÇAMENTO ENVOLTA SÓ QUE COM MEDIDAS DIFERENTES*/
 }
 div .n5:hover {
-    transition: 0.6s;
-    background-color: green;
-    color: white;
-    font-weight: 900;
-    cursor: pointer;
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    background-color: green; /*COR DE FUNDO*/
+    color: white; /*COR DO NUMERO*/
+    font-weight: 900; /*PREENCHIMENTO DO NÚMERO*/
+    cursor: pointer; /*MODIFICA O CURSOR DO MOUSE*/
 }
 
 .enviar input {
     margin: 15px;
-    width: 125px;
-    height: 30px;
-    background-color: rgba(0, 0, 0, 0.205);
-    border-color: rgba(255, 255, 255, 0.47);
-    color: white;
-    border-radius: 7px;
-    transition: 0.6s;
+    width: 125px; /*LARGURA*/
+    height: 30px; /*ALTURA*/
+    background-color: rgba(0, 0, 0, 0.205); /*COR DE FUNDO*/
+    border-color: rgba(255, 255, 255, 0.47); /*COR DA BORDA*/
+    color: white; /*COR DA LETRA*/
+    border-radius: 7px; /*ARREDONDAMENTO DA BORDA*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 .enviar input:hover {
-    transition: 0.6s;
-    background-color: black;
-    border-color: white;
-    color: white;
-    border-radius: 30px;
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    background-color: black; /*COR DE FUNDO*/
+    border-color: white; /*COR DA BORDA*/
+    color: white; /*COR DA LETRA*/
+    border-radius: 30px; /*ARREDONDAMENTO DA BORDA*/
 }
 
-
+    
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* RODAPÉ */
 footer {
-    padding: 30px;
-    background-color: #20130a;
-    font-weight: 400;
+    padding: 30px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DO FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
 }
 .rodape {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-between; /*ESPAÇAMENTO NA HORIZONTAL*/
 }
 .primeiro i {
-    color: aliceblue;
-    font-size: 80px;
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMNAHO DA LOGO*/
 }
 .primeiro hr {
-    width: 80px;
+    width: 80px; /*LARGURA*/
 }
 .segundo ul {
-    display: flex;
-    gap: 40px;
+    display: flex;/*DEICANDO AS COISAS FLEXIVEIS*/
+    gap: 40px; /*ESPAÇAMENTO ENTRE AS LISTAS */
 }
-.segundo ul li i {
-    font-size: 60px;
-    color: white;
-    transition: 0.6s;
+.segundo ul li i { 
+    font-size: 60px; /*TAMANHO DAS REDES SOCIAIS*/
+    color: white; /*COR DAS REDES SOCIAIS*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 .segundo #instagram:hover {
-    transition: 0.6s;
-    color: rgb(239, 62, 255);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(239, 62, 255);  /*COR DAS REDES SOCIAIS*/
 }
 .segundo #telegram:hover {
-    transition: 0.6s;
-    color: rgb(41, 187, 255);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(41, 187, 255); /*COR DAS REDES SOCIAIS*/
 }
 .segundo #zap:hover {
-    transition: 0.6s;
-    color: rgb(67, 255, 61);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(67, 255, 61); /*COR DAS REDES SOCIAIS*/
 }
 .terceiro nav ul li {
-    margin: 15px;
+    margin: 15px; /*ESPAÇAMENTO ENVOLTA*/
 }
 .terceiro nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO*/
+    color: white; /*COR DAS LISTAS*/
 }

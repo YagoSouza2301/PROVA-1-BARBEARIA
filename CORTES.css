@@ -37,452 +37,458 @@ header nav ul li a {
     color: white; /*COR DAS LETRAS*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* IMAGEM DE FUNDO */
 .fundo {
-    background: linear-gradient(180deg, rgba(153, 153, 153, 0.479) 8.33%, rgba(0, 0, 0, 0.349) 100%), url(Imagem/fundo\ os\ cortes.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0.479) 8.33%, rgba(0, 0, 0, 0.349) 100%), url(Imagem/fundo\ os\ cortes.jpg); /*IMAGEM DE FUNDO COM COR*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-repeat: no-repeat; /*NÃO REPETE A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    background-attachment: fixed; /*FIXA A IMAGEM*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO1 */
 .sessao1 {
-    padding: 100px;
+    padding: 100px; /*TAMANHO DA SESSÃO*/
 }
 
 .sessao1 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-bottom: 50px;
-    color: white;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    font-size: 50px; /*TAMANHO DO SUBTITULO*/
+    margin-bottom: 50px; /* ESPAÇAMENTO DEBAIXO DO SUBTITULO*/
+    color: white; /*COR DA LETRA*/
 }
 
 .sessao1 .tipos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-evenly; /*CENTRALIZA NA HORIZONTAL, SÓ QUE COM ESPAÇAMENTO*/
 }
 
 .Undercut1 {
-    background-image: url(Cortes/Undercut1.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Undercut1.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREADO DAS IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/ 
 }
 
 .Undercut1:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .Undercut2 {
-    background-image: url(Cortes/Undercut2.webp);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Undercut2.webp); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREADO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .Undercut2:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .Undercut3 {
-    background-image: url(Cortes/Undercut3.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Undercut3.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .Undercut3:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO2 */
 .sessao2 {
-    padding: 100px;
+    padding: 100px; /*TAMANHO DA SESSÃO*/
 }
 
 .sessao2 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-bottom: 50px;
-    color: white;
+    display: flex; /*DEIXA AS COISAS FLEXIVEIS*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    font-size: 50px; /*TAMANHO DO SUBTITULO*/
+    margin-bottom: 50px; /*ESPAÇAMENTO DEBAIXO DO SUBTITULO*/
+    color: white; /*COR DA LETRA*/
 }
 
 .sessao2 .tipos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-evenly; /*CENTRALIZA NA HORIZONTAL, SÓ QUE COM ESPAÇAMENTO*/
 }
 
 .Fade1 {
-    background-image: url(Cortes/FADE1.png);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/FADE1.png); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IAMGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREADO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .Fade1:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .Fade2 {
-    background-image: url(Cortes/FADE2.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/FADE2.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px;/*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .Fade2:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .Fade3 {
-    background-image: url(Cortes/FADE3.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/FADE3.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREADO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .Fade3:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 /* SESSÃO3 */
 .sessao3 {
-    padding: 100px;
+    padding: 100px; /*TAMANHO DA SESSÃO*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* SESSÃO3 */
 .sessao3 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-bottom: 50px;
-    color: white;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    font-size: 50px; /*TAMANHO DO SUBTITULO*/
+    margin-bottom: 50px; /*ESPAÇAMENTO DEBAIXO DO SUBTITULO*/
+    color: white; /*COR DA LETRA*/
 }
 
 .sessao3 .tipos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-evenly; /*CENTRALIZA NA HORIZONTAL, SÓ QUE TEM UM ESPAÇAMENTO*/
 }
 
 .Pompadour1 {
-    background-image: url(Cortes/Pompadour1.webp);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Pompadour1.webp); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*COR DO SOMBREADO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .Pompadour1:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s;/*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .Pompadour2 {
-    background-image: url(Cortes/Pompadour2.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Pompadour2.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .Pompadour2:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .Pompadour3 {
-    background-image: url(Cortes/Pompadour3.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Pompadour3.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center;/*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .Pompadour3:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO4 */
 .sessao4 {
-    padding: 100px;
+    padding: 100px; /*ESPAÇAMENTO DA SESSÃO*/
 }
 
 .sessao4 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-bottom: 50px;
-    color: white;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    font-size: 50px; /*TAMANHO DO SUBTITULO*/
+    margin-bottom: 50px; /*ESPAÇAMENTO DEBAIXO DO SUBTITULO*/
+    color: white; /*COR DA LETRA*/ 
 }
 
 .sessao4 .tipos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-evenly; /*CENTRALIZA NA HORIZONTAL, SÓ QUE COM ESPAÇAMENTO*/
 }
 
 .CorteCaesar1 {
-    background-image: url(Cortes/Corte\ Caesar1.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Corte\ Caesar1.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .CorteCaesar1:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOMM*/
 }
 
 .CorteCaesar2 {
-    background-image: url(Cortes/Corte\ Caesar2.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Corte\ Caesar2.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA VORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .CorteCaesar2:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .CorteCaesar3 {
-    background-image: url(Cortes/Corte\ Caesar3.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Corte\ Caesar3.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZAR A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .CorteCaesar3:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO5 */
 .sessao5 {
-    padding: 100px;
+    padding: 100px; /*ESPAÇAMENTO DA SESSÃO*/
 }
 
 .sessao5 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-bottom: 50px;
-    color: white;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    font-size: 50px; /*TAMANHO DO SUBTITULO*/
+    margin-bottom: 50px; /*ESPAÇAMENTO DEBAIXO DO SUBTITULO*/
+    color: white; /*COR DA LETRA*/ 
 }
 
 .sessao5 .tipos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex; /*DEIXA AS DIV FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-evenly; /*CENTRALIZA NA HORIZONTAL, SÓ QUE COM ESPAÇAMENTO*/
 }
 
 .BuzzCut1 {
-    background-image: url(Cortes/Buzz\ Cut1.png);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Buzz\ Cut1.png); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 
 .BuzzCut1:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOMM*/
 }
 
 .BuzzCut2 {
-    background-image: url(Cortes/Buzz\ Cut2.avif);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Buzz\ Cut2.avif); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA VORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .BuzzCut2:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
 .BuzzCut3 {
-    background-image: url(Cortes/Buzz\ Cut3.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 15px white;
-    transition: 0.6s;
+    background-image: url(Cortes/Buzz\ Cut3.jpg); /*IMAGEM DE FUNDO*/
+    background-position: center; /*CENTRALIZAR A IMAGEM*/
+    background-size: cover; /*AJUSTA A IMAGEM NO QUADRADO*/
+    width: 250px; /*LARGURA*/
+    height: 350px; /*ALTURA*/
+    border-radius: 15px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 2px 2px 15px white; /*SOMBREAMENTO DA IMAGEM*/
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
 }
 
 .BuzzCut3:hover {
-    transition: 0.6s;
-    transform: scale(1.1, 1.1);
+    transition: 0.6s; /*TEMPO DE ANIMAÇÃO*/
+    transform: scale(1.1, 1.1); /*ANIMAÇÃO DE ZOOM*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO6 */
 .sessao6 {
-    padding: 80px;
+    padding: 80px; /*ESPAÇAMENTO DA SESSÃO*/
     background: linear-gradient(180deg, #20130a00 8.33%, rgb(34, 34, 34) 100%);
 }
 
 .sessao6 p {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
+    text-align: center; /*CENTRALIZA O TEXTO*/
+    font-size: 40px; /*TAMANHO DO TEXTO*/
+    font-weight: 700; /*PREENCHIMENTO DO TEXTO*/
 }
 
 .sessao6 h2 {
-    text-align: center;
-    font-size: 40px;
+    text-align: center; /*CENTRALIZA O TEXTO*/
+    font-size: 40px; /*TAMANHO DO TEXTO*/
 }
 
 .sessao6 a {
-    text-decoration: none;
-    color: yellow;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO*/
+    color: yellow; /*COR DA LETRA*/
 }
 
 
-
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO6 */
 .sessao7 {
-    padding: 80px;
-    background: linear-gradient(360deg, #20130a 8.33%, rgb(34, 34, 34) 100%);
+    padding: 80px; /*TAMANHO DA SESSÃO*/
+    background: linear-gradient(360deg, #20130a 8.33%, rgb(34, 34, 34) 100%); /*IMAGEM COM COR DE FUNDO*/
 }
 
 .sessao7 h2 {
-    text-align: center;
-    margin: 20px 0px;
-    color: white;
-    font-size: 30px;
+    text-align: center; /*CENTRALIZA*/
+    margin: 20px 0px; /*ESPAÇAMENTO DO SUBTITULO*/
+    color: white; /*COR DA LETRA*/
+    font-size: 30px; /*TAMANHO DO TEXTO*/
 }
 
 .sessao7 table {
-    background-color: #000000;
-    color: aliceblue;
-    font-size: 20px;
+    background-color: #000000; /*COR DA TABELA*/
+    color: aliceblue; /*COR DO TEXTO*/
+    font-size: 20px; /*TAMANHO DO TEXTO*/
 }
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* RODAPÉ */
 footer {
-    padding: 30px;
-    background-color: #20130a;
-    font-weight: 400;
+    padding: 30px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DO FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
 }
-
 .rodape {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-between; /*ESPAÇAMENTO NA HORIZONTAL*/
 }
-
 .primeiro i {
-    color: aliceblue;
-    font-size: 80px;
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMNAHO DA LOGO*/
 }
-
 .primeiro hr {
-    width: 80px;
+    width: 80px; /*LARGURA*/
 }
-
 .segundo ul {
-    display: flex;
-    gap: 40px;
+    display: flex;/*DEIXANDO AS COISAS FLEXIVEIS*/
+    gap: 40px; /*ESPAÇAMENTO ENTRE AS LISTAS */
 }
-
-.segundo ul li i {
-    font-size: 60px;
-    color: white;
-    transition: 0.6s;
+.segundo ul li i { 
+    font-size: 60px; /*TAMANHO DAS REDES SOCIAIS*/
+    color: white; /*COR DAS REDES SOCIAIS*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
-
 .segundo #instagram:hover {
-    transition: 0.6s;
-    color: rgb(239, 62, 255);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(239, 62, 255);  /*COR DAS REDES SOCIAIS*/
 }
-
 .segundo #telegram:hover {
-    transition: 0.6s;
-    color: rgb(41, 187, 255);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(41, 187, 255); /*COR DAS REDES SOCIAIS*/
 }
-
 .segundo #zap:hover {
-    transition: 0.6s;
-    color: rgb(67, 255, 61);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(67, 255, 61); /*COR DAS REDES SOCIAIS*/
 }
-
 .terceiro nav ul li {
-    margin: 15px;
+    margin: 15px; /*ESPAÇAMENTO ENVOLTA*/
 }
-
 .terceiro nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO*/
+    color: white; /*COR DAS LISTAS*/
 }

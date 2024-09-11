@@ -36,20 +36,75 @@ header nav ul li a {
     color: white;
 }
 
+main {
+    background-color: black;
+}
 
 
+/* SESSÃO1 */
+.sessao1 {
+    padding: 180px;
+}
+.sessao1 h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: rgb(255, 166, 0)
+}
+.sessao1 p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
 
+/* SESSÃO2 */
+.sessao2 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.sessao2 div {
+    margin: 50px;
+}
+.sessao2 h2 {
+    margin: 40px 0px;
+    font-size: 30px;
+    color: rgb(255, 166, 0);
+    text-align: center;
+}
 
+.sessao2 p {
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: safe;
+    align-items: center;
+}
 
+.sessao2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 20px white;
+}
 
-
-
-
-
-
-
-
-
+.sessao3 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.sessao3 div {
+    margin: 50px;
+}
+.sessao3 p {
+    font-size: 20px;
+    color: white;
+}
 
 
 
