@@ -9,47 +9,50 @@
 
 /* CABEÇALHO DO SITE */
 header {
-    padding: 80px;
-    background-color: #20130a;
-    font-weight: 400;
+    padding: 80px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DE FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
 }
 header .cabeçalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    justify-content: space-between; /*ESPAÇAMENTO ENTRE AS DIV*/
+    align-items: center; /*CENTRALIZAR AS DIV NA VERTICAL*/ 
 }
 header i {
-    color: aliceblue;
-    font-size: 80px;
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMANHO DA LOGO*/
 }
 header h1 {
-    font-size: 50px;
-    color: white;
-    margin: 0px auto;
+    font-size: 70px; /*TAMANHO DO TITULO*/
+    color: white; /*COR DA LETRA*/
+    margin: 0px auto; /*ESPEÇAMENTO ENTRE ENVOLTA DO TÍTULO*/
 }
 header nav ul {
-    display: flex;
-    gap: 15px;
+    display: flex; /*DEIXA A LISTA UM DO LADO DA OUTRA (MENU)*/
+    gap: 15px; /*ESPAÇAMENTO ENTRE AS LISTAS*/
 }
 header nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO, FAZENDO QUE RETIRA A LINHA QUE FICA EMBAIXO DA FRASE*/
+    color: white; /*COR DAS LETRAS*/
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 main {
-    background-color: black;
+    background-color: black; /*COR DE FUNDO GERAL*/
 }
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO1 */
 .sessao1 {
-    padding: 180px;
+    padding: 180px; /*TAMANHO DA SESSÕA*/
 }
 .sessao1 h2 {
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 40px;
-    color: rgb(255, 166, 0)
+    text-align: center; /*ALINHAR O TEXTO NO CENTRO*/
+    font-size: 50px; /*TAMANHO DO SUBTITULO*/
+    margin-bottom: 40px; /*ESPAÇAMENTO DEBAIXO DO SUBTITULO*/
+    color: rgb(255, 166, 0) /*COR DO SUBTITULO*/
 }
 .sessao1 p {
     text-align: center;
@@ -58,99 +61,102 @@ main {
     color: white;
 }
 
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* SESSÃO2 */
 .sessao2 {
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 100px; /*TAMANHO DA SESSÃO*/
+    display: flex; /*DEIXA AS COISAS FLEXIVEIS*/
+    justify-content: space-between; /*CENTRALIZA NA HORIZONTAL, SÓ QUE COM ESPAÇAMENTO*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
     margin: 50px;
 }
 .sessao2 div {
-    margin: 50px;
+    margin: 50px; /*ESPÇAMENTO DE UMA DIV PARA A OUTRA*/
 }
 .sessao2 h2 {
-    margin: 40px 0px;
-    font-size: 30px;
-    color: rgb(255, 166, 0);
-    text-align: center;
+    margin: 40px 0px; /*ESPAÇAMENTO COM MEDIDAS DIFERENTES*/
+    font-size: 30px; /*TAMANHO DO SUBTITULO*/
+    color: rgb(255, 166, 0); /*COR DO SUBTITULO*/
+    text-align: center; /*DENTRALIZA NA VERTICAL*/
 }
 
 .sessao2 p {
-    font-size: 20px;
-    color: white;
-    display: flex;
-    justify-content: safe;
-    align-items: center;
+    font-size: 20px; /*TAMANHO DAS LETRAS*/
+    color: white; /*COR DA LETRA*/
+    display: flex; /*DEIXA AS COISAS FLEXIVEIS*/
+    justify-content: safe; /*ALINHA PARA O CANTO ESQUERDO*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
 }
 
 .sessao2 img {
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    box-shadow: 3px 3px 20px white;
+    width: 300px; /*LARGURA*/
+    height: 500px; /*ALTURA*/
+    border-radius: 40px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 3px 3px 20px white; /*SOMBREAMENTO DA IMAGEM*/
 }
 
 .sessao3 {
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    padding: 100px; /*TAMANHO DA SESSÃO*/
+    display: flex; /*DEIXA AS COISAS FLEXIVEIS*/
+    justify-content: space-between; /*CENTRALIZA NA HORIZONTAL, SÓ QUE COM ESPAÇAMENTO*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    text-align: center; /*ALINHA O TEXTO NO CENTRO*/
 }
 .sessao3 div {
-    margin: 50px;
+    margin: 50px; /*ESPAÇAMENTO ENTRA AS DIV*/
 }
 .sessao3 p {
-    font-size: 20px;
-    color: white;
+    font-size: 20px; /*TAMANHO DAS LETRAS*/
+    color: white; /*COR DA LETRA*/
 }
 
 
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* RODAPÉ */
 footer {
-    padding: 30px;
-    background-color: #20130a;
-    font-weight: 400;
+    padding: 30px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DO FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
 }
 .rodape {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-between; /*ESPAÇAMENTO NA HORIZONTAL*/
 }
 .primeiro i {
-    color: aliceblue;
-    font-size: 80px;
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMNAHO DA LOGO*/
 }
 .primeiro hr {
-    width: 80px;
+    width: 80px; /*LARGURA*/
 }
 .segundo ul {
-    display: flex;
-    gap: 40px;
+    display: flex;/*DEICANDO AS COISAS FLEXIVEIS*/
+    gap: 40px; /*ESPAÇAMENTO ENTRE AS LISTAS */
 }
-.segundo ul li i {
-    font-size: 60px;
-    color: white;
-    transition: 0.6s;
+.segundo ul li i { 
+    font-size: 60px; /*TAMANHO DAS REDES SOCIAIS*/
+    color: white; /*COR DAS REDES SOCIAIS*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
 }
 .segundo #instagram:hover {
-    transition: 0.6s;
-    color: rgb(239, 62, 255);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(239, 62, 255);  /*COR DAS REDES SOCIAIS*/
 }
 .segundo #telegram:hover {
-    transition: 0.6s;
-    color: rgb(41, 187, 255);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(41, 187, 255); /*COR DAS REDES SOCIAIS*/
 }
 .segundo #zap:hover {
-    transition: 0.6s;
-    color: rgb(67, 255, 61);
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(67, 255, 61); /*COR DAS REDES SOCIAIS*/
 }
 .terceiro nav ul li {
-    margin: 15px;
+    margin: 15px; /*ESPAÇAMENTO ENVOLTA*/
 }
 .terceiro nav ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO*/
+    color: white; /*COR DAS LISTAS*/
 }
