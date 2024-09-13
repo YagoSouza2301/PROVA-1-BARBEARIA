@@ -1,0 +1,132 @@
+/* FONTE DO SITE */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Merriweather", serif;
+}
+
+/* CABEÇALHO DO SITE */
+header {
+    padding: 80px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DE FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
+}
+header .cabeçalho {
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    justify-content: space-between; /*ESPAÇAMENTO ENTRE AS DIV*/
+    align-items: center; /*CENTRALIZAR AS DIV NA VERTICAL*/ 
+}
+header i {
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMANHO DA LOGO*/
+}
+header h1 {
+    font-size: 70px; /*TAMANHO DO TITULO*/
+    color: white; /*COR DA LETRA*/
+    margin: 0px auto; /*ESPEÇAMENTO ENTRE ENVOLTA DO TÍTULO*/
+}
+header nav ul {
+    display: flex; /*DEIXA A LISTA UM DO LADO DA OUTRA (MENU)*/
+    gap: 15px; /*ESPAÇAMENTO ENTRE AS LISTAS*/
+}
+header nav ul li a {
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO, FAZENDO QUE RETIRA A LINHA QUE FICA EMBAIXO DA FRASE*/
+    color: white; /*COR DAS LETRAS*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* SESSÃO */
+main {
+    padding: 120px; /*ESPAÇAMENTO DA SESSÃO*/
+    background-image: url(Imagem/CONTATO\ TELA\ DE\ FUNDO.jpg); /*TELA DE FUNDO*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+    background-repeat: no-repeat; /*NÃO REPITIR A IMAGEM*/
+    background-size: cover; /*AJUSTAR A IMAGEM NO QUADRADO*/
+    background-attachment: fixed; /*FIXA A IMAGEM NO FUNDO*/
+    display: flex; /*DEIXA MINHA PARTE IMPORTANTE FLEXIVEL*/
+    justify-content: center; /*CENTRALIZA NA HORIZONTAL*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+}
+
+.contato {
+    width: 520px; /*TAMANHO DA MINHA DIV "PAI"*/
+    text-align: center; /*CENTRALIZA O TEXTO*/
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.884) 8.33%, rgba(85, 85, 85, 0.829) 100%); /**/
+    border-radius: 30px; /*ARREDONDAMENTO DA BORDA*/
+    box-shadow: 3px 3px 10px rgb(255, 255, 255);  /*SOMBREAMENTO DA DIV*/
+}
+.contato div {
+    padding: 80px; /*ESPAÇAMENTO DA DIV*/
+}
+.contato h2 {
+    font-size: 40px; /*TAMANHO DAS LETRAS*/
+    color: rgb(196, 87, 37); /*COR DA LETRA*/
+}
+.contato p strong {
+    font-size: 20px; /*TAMANHO DO PARAGRAFO*/
+    color: white; /*COR DO PARAGRAFO*/
+}
+.contato h5 {
+    font-size: 17px; /*TAMANHO DO SUBTITULO*/
+    margin: 20px auto; /*ESPAÇAMENTO ENVOLTA COM TAMANHOS DIFERENTESS*/
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* BÔNUS */
+.contato h5 a {
+    text-decoration: none; /*CENTRALIZA O TEXTO*/
+    color: rgba(0, 0, 0, 0.080); /*COR DA LETRA*/
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* RODAPÉ */
+footer {
+    padding: 30px; /*TAMANHO DA SESSÃO*/
+    background-color: #20130a; /*COR DO FUNDO*/
+    font-weight: 400; /*PREENCHIMENTO DAS LETRAS*/
+}
+.rodape {
+    display: flex; /*DEIXANDO AS COISAS FLEXIVEIS*/
+    align-items: center; /*CENTRALIZA NA VERTICAL*/
+    justify-content: space-between; /*ESPAÇAMENTO NA HORIZONTAL*/
+}
+.primeiro i {
+    color: aliceblue; /*COR DA LOGO*/
+    font-size: 80px; /*TAMNAHO DA LOGO*/
+}
+.primeiro hr {
+    width: 80px; /*LARGURA*/
+}
+.segundo ul {
+    display: flex;/*DEICANDO AS COISAS FLEXIVEIS*/
+    gap: 40px; /*ESPAÇAMENTO ENTRE AS LISTAS */
+}
+.segundo ul li i { 
+    font-size: 60px; /*TAMANHO DAS REDES SOCIAIS*/
+    color: white; /*COR DAS REDES SOCIAIS*/
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+}
+.segundo #instagram:hover {
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(239, 62, 255);  /*COR DAS REDES SOCIAIS*/
+}
+.segundo #telegram:hover {
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(41, 187, 255); /*COR DAS REDES SOCIAIS*/
+}
+.segundo #zap:hover {
+    transition: 0.6s; /*TEMPO DA ANIMAÇÃO*/
+    color: rgb(67, 255, 61); /*COR DAS REDES SOCIAIS*/
+}
+.terceiro nav ul li {
+    margin: 15px; /*ESPAÇAMENTO ENVOLTA*/
+}
+.terceiro nav ul li a {
+    text-decoration: none; /*RETIRA O TIPO DE TEXTO*/
+    color: white; /*COR DAS LISTAS*/
+}
